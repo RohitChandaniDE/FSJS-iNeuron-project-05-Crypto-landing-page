@@ -1,17 +1,17 @@
  body {
     background-position: center;
     background-size: cover;
-    height: 1250px;
+    background-color: #fff;
     margin: auto ;
     background-image: url("../../assets/bg.png");
   }
   
 .navbar{
         display: flex;
-        height: 125px;
         align-items: center;
         justify-content: space-around;
         background-color: #000;
+        height: 125px;
       }
     
  .logo {
