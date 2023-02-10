@@ -1,0 +1,80 @@
+ body {
+    background-position: center;
+    background-size: cover;
+    height: 1250px;
+    margin: auto ;
+    background-image: url("../../assets/bg.png");
+  }
+  
+.navbar{
+        display: flex;
+        height: 125px;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #000;
+      }
+    
+ .logo {
+    margin-left: 100px;
+    height: 45px;
+ }
+
+ .Vertice-line {
+  border-left: 1px solid rgb(221, 212, 212);
+  height: 60px;
+  margin-left: 90px;
+ }
+
+ .list{
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+ }
+ 
+ .list-item {
+    list-style-type: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 50px;
+    margin-right: 70px;
+    
+   }
+  
+   .button-small {
+    color: #fff;
+    background-color: rgb(224, 59, 166);
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-right: 100px;
+}
+
+.hero{
+    text-align: center;
+    color: #fff;
+    }
+
+.hero-heading {
+    font-size: 110px;
+    font-family: sans-serif;
+    margin: 9% 10%;
+    
+}
+
+.hero-description {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: -150px;
+}
+
+.button-large {
+    background-color: rgb(223, 21, 152);
+    font-size: 40px;
+    padding: 25px 25px;
+    border: none;
+    color: #fff;
+    border-radius: 10px ;
+    font-family: sans-serif;
+    margin-top: 230px;
+}
